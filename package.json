@@ -1,0 +1,53 @@
+{
+  "name": "landingpage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "i18next": "^21.6.13",
+    "i18next-browser-languagedetector": "^6.1.3",
+    "i18next-locize-backend": "^5.0.1",
+    "locize-cli": "^7.9.1",
+    "radium": "^0.26.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.6",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "reactstrap": "^9.0.1",
+    "typeface-poppins": "^1.1.13",
+    "unsplash-js": "^7.0.15",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sync": "locize sync --path ./public/src/locales --project-id c530b68f-6439-4d33-b571-4ddd043d04f6 --api-key 97fdb791-ec28-41bf-b834-9c0f0be3ab88 --reference-language-only false"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
